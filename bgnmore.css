@@ -1,0 +1,153 @@
+body {
+    
+    background-color: #2F4F4F;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.button1:hover {
+    background-color: #008000;
+    margin: 4px 2px;
+    transition-delay: 0.05s;
+}
+
+.container-sm{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    background-color: #2F4F4F;
+    margin-top: 40px;
+	padding: 25px;
+   }
+
+h3{
+    color: green;
+    text-align: center;
+}
+
+hr{
+	border-top: 2px dashed green;
+}
+
+  .container {
+    background-color : white;
+    padding: 16px;
+    margin-top: 25px;
+    border: 5px solid green;
+	opacity: 0.98;
+  }
+  
+  footer {
+    margin-top: 400px;
+    text-align: center;
+    padding: 10px;
+	padding-top: 10px;
+    background-color: black;
+	opacity: 0.9;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #FF7F50;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .error {
+	color: #FF0000;
+  }
+  
+  input[type=text] , input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+  } 
+  
+input:focus {
+  background-color: #F0FFFF;
+  outline-color: #00FFFF;
+}
+ 
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+ 
+#bmipinaks th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+#bmipinaks tr:nth-child(even){
+	background-color: #f2f2f2;
+	}
+	
+#bmipinaks {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#bmipinaks td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.sateam{
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width: 450px) {
+  .sateam {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  .cimg {
+      float: left;
+      margin-right: 10px;
+  }
+}
+
+.emojis{
+    border: none;
+    background-color: white;
+}
